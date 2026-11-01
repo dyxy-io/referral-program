@@ -21,11 +21,11 @@ flowchart LR
 
 | | Referred trader | Referrer |
 | --- | --- | --- |
-| Benefit | 10% off all trading fees | 30%–50% of referred traders' fees |
-| Applies to | Swaps, perps (incl. Degen mode), stocks, bots | All trades of the referral network |
+| Benefit | 10% off trading fees on perps and bots | 30%–50% of referred traders' fees |
+| Applies to | Perps (V1, V2, Degen mode) and trading bots | Perps and bot trades of the referral network |
 | Condition | Link wallet to a code | Share a code |
 
-Pools, staking and lending carry no DYXY fee, so they generate no referral rewards.
+Swaps, stocks, pools, staking and lending are not part of the program: no discount, no network volume, no rewards.
 
 ## Tiers
 
@@ -50,7 +50,7 @@ sequenceDiagram
     P->>R: Rewards = fees × tier share
 ```
 
-- Volume counts every trade by every wallet linked to the code.
+- Volume counts perps trades and trading bot orders by every wallet linked to the code. Swaps and stocks do not count.
 - The tier for each month is set by the previous month's volume.
 - Tiers move up and down with volume.
 
