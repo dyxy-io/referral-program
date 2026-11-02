@@ -26,7 +26,7 @@ flowchart LR
 | --- | --- | --- |
 | Benefit | 10% off trading fees on perps and bots | 30%–50% of referred traders' fees |
 | Applies to | Perps (V1, V2, Degen mode) and trading bots | Perps and bot trades of the referral network |
-| Condition | Link wallet to a code | Share a code |
+| Condition | Link wallet to a code | Trade $10,000 in volume to unlock a code, then share it |
 
 Swaps, stocks, pools, staking and lending are not part of the program: no discount, no network volume, no rewards.
 
@@ -79,6 +79,7 @@ tier(month M+1)   = f(network volume in month M)
 | Rule | |
 | --- | --- |
 | Codes per wallet | One. The link is permanent |
+| Unlocking a code | After $10,000 of own trading volume on perps or bots |
 | Self-referral | Not allowed |
 | Both roles | A referred trader can also refer others |
 | Claiming | Rewards accrue continuously and are claimed on the Referrals page |
